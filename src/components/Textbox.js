@@ -24,7 +24,7 @@ function Textbox(props) {
       <div className="main">
 
         <div className="header">
-          <h2>Enter any text below!!! - {props.head}</h2>
+          <h2>Enter any text below!!!</h2>
         </div>
 
         <div className="textarea">

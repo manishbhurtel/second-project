@@ -20,13 +20,17 @@ body{
     margin-bottom:1rem;
     width:100vw;
     text-align: center;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main{
-    height: 100vh;
-    width:100vw;
+    height: 100%;
+    width:100%;
     background-color: rgb(243, 230, 255);
-    flex-direction: column;
-    border:2px solid black;
+    /* flex-direction: column; */
+    /* border:2px solid black; */
     margin: auto;
 }
 .textarea{
