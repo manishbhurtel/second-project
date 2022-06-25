@@ -32,6 +32,7 @@ body{
     /* flex-direction: column; */
     /* border:2px solid black; */
     margin: auto;
+    padding-bottom: 1rem;
 }
 .textarea{
     width:100vw;
@@ -87,18 +88,44 @@ body{
     font-size:1.2rem;
     font-weight: 800;
 }
-
+.whole_preview{
+    position: relative;
+    padding:3rem;
+}
 .preview{
     border:none;
     outline: none;
+    height: 40vh;
     width:50vw;
     padding:1rem;
     margin: auto;
     border-radius:1.3rem;
     background-color: white;
-    margin-top: 1.4rem;
+    margin-top: 0rem;
+    overflow:scroll;
+    position: relative;
+    color:black;
+}
+.preview_header{
+    position: absolute;
+    top:10px;
+    left:25vw;
 }
 .preview_para{
     word-spacing: 0.8rem;
     font-size: 1.1rem;
+}
+
+@media (max-width:1000px) {
+    .preview{
+        width:80vw;
+    }
+    .textarea textarea{
+        width:80vw;
+    }
+}
+
+
+.darkBackground{
+    background-color: black;
 }
