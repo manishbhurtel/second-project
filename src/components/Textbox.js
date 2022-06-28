@@ -8,7 +8,7 @@ import img2 from "../images/redMode.png"
 import img3 from "../images/yellowMode.png"
 
 export default function Textbox(props) {
-  
+
   const [darkBody, setdarkBody] = useState({
     backgroundColor: 'rgb(243, 230, 255)',
     color: 'black'
@@ -23,7 +23,7 @@ export default function Textbox(props) {
   //Themes need to be debugged as this code is not as efficient as it should have been.
   //Code for theme section i.e. 3 color buttons, starts from here
   const blueThemeClicked = () => {
-    if (darkBody.color == 'black' || darkBody.backgroundColor == 'yellow' || darkBody.backgroundColor == 'red'){
+    if (darkBody.color === 'black' || darkBody.backgroundColor === 'yellow' || darkBody.backgroundColor === 'red'){
       setdarkBody({
         backgroundColor: 'rgb(93, 93, 255)',
         color: 'white'
@@ -45,7 +45,7 @@ export default function Textbox(props) {
     }
   }
   const redThemeClicked = () => {
-    if (darkBody.color == 'black') {
+    if (darkBody.color === 'black') {
       setdarkBody({
         backgroundColor: 'rgb(255, 96, 96)',
         color: 'white'
@@ -59,7 +59,7 @@ export default function Textbox(props) {
     }
   }
   const yellowThemeClicked = () => {
-    if (darkBody.color == 'black') {
+    if (darkBody.color === 'black') {
       setdarkBody({
         backgroundColor: 'rgb(255, 255, 132)',
         color: 'black'
@@ -84,7 +84,7 @@ export default function Textbox(props) {
     border: '2px solid black'
   })
   const toggleButtonClicked = () => {
-    if (darkBody.color == 'black') {
+    if (darkBody.color === 'black') {
       setdarkBody({
         backgroundColor: 'black',
         color: 'white'
