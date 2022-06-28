@@ -133,7 +133,9 @@ body{
         left:12vw;
     }
 }
-
+@media (max-width:420px) {
+    
+}
 
 .darkBackground{
     background-color: black;

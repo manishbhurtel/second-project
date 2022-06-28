@@ -1,10 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Textbox from './components/Textbox'
 
 function App() {
   return (
     <>
-     <Textbox head = "Write anything u please to..."/>
+     <Textbox/>
     </>
   )
 }
