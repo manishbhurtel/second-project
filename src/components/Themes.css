@@ -1,0 +1,25 @@
+.customThemes{
+    height:5rem;
+    width:100vw;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.themes_para{
+    font-size: 1.3rem;
+    font-weight: 800;
+    margin:0.5rem;
+}
+.images_Themes{
+    border:2px solid black;
+    border-radius:1.3rem;
+    padding:0.4rem;
+}
+.images_Themes img{
+    height: 2rem;
+    width: 2rem;
+    margin:0.4rem;
+    cursor:pointer;
+    color:rgb(255, 255, 132)
+}
